@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+.Navbar{
+    padding: auto;
+    background-color:rgb(78, 78, 223);
+}
+.Navbar ul{
+    color: white;
+    padding: .8em 0em;
+}
+.Navbar ul li{
+    display: inline;
+    font-weight: 200;
+    list-style: none;
+    justify-content: space-between;
+    padding:1.5rem;
+}
+
+.topinfo{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 3rem;
+}
+
+.body h5{
+    padding: 1em 3em;
+}
+
+.body h1{
+    padding: 0 1.2em;
+    font-size: 50px;
+}
+
+.body .btn{
+    background-color:rgb(78, 78, 223);
+    padding: .7em;
+    width: 13%;
+    margin: 0 3.9em;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.subnav{
+    padding: auto;
+}
+.subnav ul{
+    color: black;
+    padding: .8em 3em;
+}
+.subnav ul li{
+    display: inline;
+    font-weight: 600;
+    list-style: none;
+    justify-content: space-between;
+    padding:1.5rem;
+}
+
+.treatover{
+    display: flex;
+}
+
+.treatimg img{
+    padding-top: 3em;
+    height: 65vh;
+    padding: 3em;
+}
+.over h3{
+    margin: 3rem;
+}
+.over p{
+    margin: 2rem 3rem;
+    margin-right:10%;
+}
+
+.eligibility{
+    display: flex;
+}
+
+.eligibility .cnt-form{
+    margin-right: 3em;
+    border: 1px solid black;
+    padding: 1em;
+}
+.eligibility .cnt-form input{
+    margin: 1em 0;
+    padding: 1em;
+    width: 100%;
+}
+
+.eligibility .cnt-form button{
+    width: 100%;
+    padding: .8em;
+    background-color: rgb(78, 78, 223);
+    color: white;
+}
+.elib h3{
+    margin: 3rem;
+}
+.elib p{
+    margin: .5rem 3rem;
+    margin-right: 10%;
+}
+.elib ul {
+    color:rgb(78, 78, 223);
+    margin-left:4rem;
+    margin-bottom: 2em;
+}
+
+.treat h3{
+    margin:0.2rem 3rem;
+}
+.treat p{
+    margin: 0.2rem 3rem;
+}
+.patie{
+    display: flex;
+}
+.pstorie{
+    margin: 0.2rem 3rem;
+    padding: 1rem;
+    width: 25%;
+    border:0.2px solid gray;
+    margin-bottom: 2em;
+}
+.pstorie img{
+    width: 100%;
+}
+.pstorie .profile{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.pstorie .profile i{
+    font-size: 70px;
+}
+.pstorie .profile h5{
+    margin-right: 30%;
+    font-weight: 700;
+    margin-top: .7rem;
+}
+.pstorie h6{
+    margin-left: 32%;
+    margin-top: -2.5em;
+    margin-bottom: -0.5rem;
+}
+
+.doctor {
+    background-color: lightblue;
+    padding: 3rem;
+}
+.doctor .doc-cont{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+.doctor h5{
+    padding-top: 1rem;
+    text-align: center;
+}
+.doctor h4{
+    padding: -2rem;
+    text-align: center;
+}
+.doctor .doc-card{
+    padding: 1rem;
+    background-color: white;
+    width: 25%;
+}
+.doctor .doc-card h2{
+    width: 100%;
+    height: 30vh;
+    background-color: palevioletred;
+}
+
+.doctor .doc-card h5{
+    text-align: center;
+    color: red;
+    font-style: italic;
+}
+
+.doctor .doc-card h6{
+    text-align: center;
+}
+.doctor .doc-card p{
+    text-align: center;
+}
+
+.hosp h5{
+    text-align: center;
+    padding-top: 1em;
+}
+
+.hosp h4{
+    text-align: center;
+}
+
+.hosp .hosp-card{
+    border: 2px dotted red;
+    padding: 1rem;
+    margin: 3rem;
+    width:30%;
+}
+.hosp .hosp-grid{
+    display: flex;
+    justify-content: space-around;
+}
+.hosp .hosp-card img{
+    width: 100%;
+    height: 30vh;
+}
+.hosp .hosp-card p{
+    text-align: center;
+}
+
+.hosp .hosp-card h5{
+    margin-top: 1em;
+}
+
+.hosp .hosp-card p{
+    margin-top: 1em;
+}
+
+.getin{
+    background-color: lightskyblue;
+
+}
+
+.getin h1{
+    text-align: center;
+}
+.getin h5{
+    text-align: center;
+    padding-top: 2rem;
+}
+.getin .contdet{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contdet button{
+    margin-left: 28rem;
+    width: 16%;
+    height: 8vh;
+    background-color: red;
+    color: white;
+    margin-bottom: 2em;
+}
+.contdet span{
+    border-left: 2px solid white;
+    margin-bottom: 2em;
+}
+.contdet h5{
+    margin-top: -1rem;
+    margin-right: 25rem;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+.foot h4{
+    padding-top: 1em;
+    margin-left: -2em;
+}
+.foot .impl{
+    color: white;
+}
+
+.foot .impsp{
+    color: white;
+}
+
+.foot .impto{
+    color: white;
+}
+
+.footer{
+    background-color: black;
+}
+
+.secfoot{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3em;
+}
+.secfoot .abto{
+    display: inline;
+    color: white;
+    width: 50%;
+}
+
+.secfoot .foll h4{
+    color: white;
+}
+
+.secfoot .ico{
+    justify-content: space-around;
+    font-size:20px;
+    color:white;
+    margin-left: -1em;
+}
+
+.secfoot .ico i{
+    margin-left: 1em;
+}
+
+.thirfoo{
+    margin-top: 2em;
+    background-color: rgb(78, 78, 223);
+}
+.thirfoo p{
+    color: white;
+    padding: 0.4em;
+    margin-left: 2.5em;
+}
+
+
+
+@media only screen and (max-width:500px){
+    .topinfo{
+        display:flex;
+        flex-direction: column;
+    }
+    .Navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-end;
+    }
+    .body h1{
+        text-align: center;
+        font-size: x-large;
+    }
+    .body h5{
+        font-size: large;
+    }
+    .body .btn{
+        width: 50%;
+    }
+    .subnav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .treatover img{
+        display: none;
+    }
+    .eligibility .cnt-form{
+        display: none;
+    }
+   #prepar{
+        margin-top: 10em;
+    }
+    .eligibility .elib ul{
+        display: none;
+    }
+    .patie{
+        display: inline;
+        width: 100%;
+    }
+    .patie .pstorie{
+        margin-left: -0.1em;
+        width: 100%;
+    }
+    .doctor{
+        width: 100%;
+    }
+    .doc-cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .doctor .doc-card {
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    .hosp .hosp-grid{
+        display:flex;
+        flex-direction: column;
+    }
+    #hspdr{
+       width: 75%;
+    }
+    .defend h5{
+        font-size: 18px;
+    }
+    .getin h5{
+        font-size: 18px;
+    }
+    .getin h1{
+        font-size: 20px;
+    }
+    .getin .contdet button {
+        display: none;
+    }
+    .contdet h5{
+        color: rebeccapurple;
+        border-right: none;
+        margin-right: 5em;
+        margin-left: 5rem;
+    }
+    .footer .foot{
+        display: inline;
+        text-align: center;
+    }
+    .footer .foot h4{
+        margin-left: 1rem;
+    }
+    .secfoot{
+        display: inline;
+        text-align: center;
+    }
+    .secfoot .abto p{
+        padding: 1rem;
+    }
+} 
